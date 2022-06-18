@@ -1,0 +1,28 @@
+.game {
+  background-image: url(./../../public/img/bgGame.png);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-repeat: none;
+  font-family: "fontGame";
+}
+
+@font-face {
+  font-family: "fontGame";
+  src: url(./font/Pony.ttf);
+}
+
+.btnGame {
+  height: 200px;
+  width: 200px;
+  font-size: 30px;
+  background-color: rgb(82, 108, 238);
+  color: #fff;
+  border: 5px solid rgb(82, 238, 98);
+  border-radius: 10px;
+}
+
+.xiNgau{
+    height:50px;
+    width:50px;
+}
